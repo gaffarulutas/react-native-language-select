@@ -1,0 +1,154 @@
+.btn-toolbar {
+  background-color: #232c3a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 0;
+  left: 0;
+}
+.btn-toolbar button,
+.btn-toolbar a {
+  background-color: white;
+  font-size: 11px;
+}
+.franchise-home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../../../public/assets/galata.png");
+  background-color: rgba(224, 246, 250, 0.308);
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.pink-background {
+  width: 35rem;
+  filter: opacity(54%);
+  rotate: calc(5.28deg);
+  margin-left: -1rem;
+  margin-top: -1rem;
+  display: block;
+}
+
+.monitor2-text {
+  height: 40rem;
+  overflow-y: scroll;
+}
+.accordion-img {
+  width: 22rem;
+}
+.brand-in-img {
+  width: 20%;
+  top: 30%;
+  left: 40%;
+}
+.ceo-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../../../public/assets/ceo-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.ceo-img {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: 0;
+  width: 22rem;
+  z-index: -1;
+}
+.ceo-text-container {
+  background-color: rgba(35, 44, 58, 0.5);
+  z-index: 2;
+  margin-top: 13rem;
+}
+.ceo-text {
+  overflow-y: auto;
+  height: 10rem;
+}
+
+.office1 .office-img {
+  box-shadow: 3.5rem 3.5rem #ffe3ad;
+}
+.office2 .office-img {
+  box-shadow: -3.5rem 3.5rem #f3c8c2;
+  margin-left: auto;
+}
+
+.purple-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../../../public/assets/purple-rectangle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  .franchise-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url("../../../public/assets/galata-lg.png");
+    background-color: rgba(224, 246, 250, 0.308);
+    background-size: contain !important;
+    background-position: bottom right !important;
+    background-repeat: no-repeat;
+  }
+  .pink-background {
+    width: 60rem !important;
+    margin-left: -4.5rem !important;
+    rotate: calc(0deg) !important;
+  }
+  .section-header {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .header-p {
+    font-size: 13px;
+  }
+
+  .ceo-img-lg {
+    margin-right: -8rem !important;
+    margin-top: -8rem !important;
+    width: 40rem !important;
+    z-index: 2;
+  }
+  .ceo-text-container {
+    background-color: rgba(35, 44, 58, 1) !important;
+    z-index: 2 !important;
+    margin-top: 4.25rem !important;
+    z-index: 3;
+  }
+  .ceo-text {
+    overflow-y: auto !important;
+    height: 20rem !important;
+    margin-right: -7rem !important;
+    margin-bottom: 4.25rem !important;
+    z-index: 3;
+  }
+  .pink-badge {
+    border: none;
+    border-radius: 11px;
+    background-color: #ff5555;
+    color: white;
+    padding: 5px 10px;
+    width: auto !important;
+    display: inline-block !important;
+  }
+
+  .btn-toolbar {
+    background-color: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+    left: 0;
+  }
+  .office2 {
+    margin-top: 80px;
+  }
+  .offices .btn-group {
+    margin-top: 80px;
+  }
+  .footer-foot {
+    border-top-left-radius: 2rem !important;
+    border-top-right-radius: 2rem !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+}

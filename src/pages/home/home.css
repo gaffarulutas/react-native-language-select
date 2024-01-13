@@ -1,0 +1,98 @@
+/* PAGE STYLES----- */
+.information-block {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../public/assets/Rectangle2.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+}
+.home-menu {
+  background-image: url("../../../public/assets/Rectangle.png");
+  background-size: cover;
+}
+.home-form {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.brand-img {
+  width: 18rem;
+}
+.flag-img {
+  width: 1.2rem;
+  height: auto;
+}
+.box {
+  border: 1px solid rgb(213, 211, 211);
+  border-radius: 1.5rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  background-color: white;
+}
+.box > div {
+  /* px-5 py-3 border-bottom */
+  padding: 1rem 3rem;
+  border-bottom: 1px solid rgb(213, 211, 211);
+}
+.box > div > div {
+  padding: 0 1rem;
+}
+.footer-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-list li {
+  margin-top: 1.5rem;
+}
+.footer-list .header-text a {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.footer-list li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 200;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+.section-title span {
+  font-weight: 600;
+}
+.youtube-button {
+  width: 10%;
+  top: 55%;
+  left: 45%;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+}
+
+@media (min-width: 992px) {
+  .box-lg-shadow {
+    box-shadow: 5px -5px rgba(0, 0, 0, 0.1);
+  }
+  .text-shadow li {
+    text-shadow: 0 4px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .box {
+    border: 1px solid rgb(213, 211, 211) !important;
+    border-radius: 1.5rem !important;
+    margin-top: 3rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    background-color: white !important;
+  }
+  .section-title {
+    font-size: 3.75rem;
+    font-weight: 200;
+    text-align: center;
+    padding: 0 1.5rem;
+  }
+}
